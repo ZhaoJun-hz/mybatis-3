@@ -50,7 +50,7 @@ public class XPathParser {
   private boolean validation;
   private EntityResolver entityResolver;
   private Properties variables;
-  private XPath xpath;
+  private XPath xpath; // XPath对象
 
   public XPathParser(String xml) {
     commonConstructor(false, null, null);
