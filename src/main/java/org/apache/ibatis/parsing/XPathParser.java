@@ -218,7 +218,7 @@ public class XPathParser {
     }
     return new XNode(this, node, variables);
   }
-
+fsdfasf
   private Object evaluate(String expression, Object root, QName returnType) {
     try {
       return xpath.evaluate(expression, root, returnType);
